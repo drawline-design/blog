@@ -6,7 +6,7 @@ tags = ["github","hugo","netlify"]
 image = "/image/190225_head.jpg"
 +++
 
-ポートフォリオサイトの実装に合わせて、作品を並べる必要が出てきたため、shortcodeを活用してFancyboxを実装しました。
+ポートフォリオサイトの制作に合わせて、多くの画像ファイルを並べる必要が出てきたため、hugoのshortcodeを活用して、Fancyboxを実装しました。
 
 <!--more-->
 
@@ -95,7 +95,7 @@ image = "/image/190225_head.jpg"
 
 ## 画像ファイル配置
 
-        {{ < 2colgallery dir="/contents/images/190226" > }}
+        {{ < gallery dir="/contents/images/190226" > }}
 
 指定したディレクトリの中にthumbsディレクトリを作り、そこにサムネイルを格納しています。
 
