@@ -3,7 +3,7 @@ date = "2019-02-26T12:35:00+09:00"
 title = "hugoで構築したサイトへFancybox実装"
 categories = ["memo"]
 tags = ["github","hugo","netlify","jQuery"]
-image = "/image/190225_head.jpg"
+image = "/contents/images/190226/190226_head.jpg"
 +++
 
 ポートフォリオサイトの制作に合わせて、多くの画像ファイルを並べる必要が出てきたため、hugoのshortcodeを活用して、Fancyboxを実装しました。
@@ -97,6 +97,6 @@ image = "/image/190225_head.jpg"
 
         {{ < gallery dir="/contents/images/190226" > }}
 
-指定したディレクトリの中にthumbsディレクトリを作り、そこにサムネイルを格納しています。
+指定したディレクトリの中にthumbsディレクトリを作り、そこに同ファイル名のサムネイルを格納しています。
 
 {{< 2colgallery dir="/contents/images/190226" >}}
