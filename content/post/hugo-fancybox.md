@@ -2,7 +2,7 @@
 date = "2019-02-26T12:35:00+09:00"
 title = "hugoで構築したサイトへFancybox実装"
 categories = ["memo"]
-tags = ["github","hugo","netlify"]
+tags = ["github","hugo","netlify","jQuery"]
 image = "/image/190225_head.jpg"
 +++
 
