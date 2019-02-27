@@ -1,2 +1,0 @@
-00.jpg filter=lfs diff=lfs merge=lfs -text
-01.jpg filter=lfs diff=lfs merge=lfs -text
