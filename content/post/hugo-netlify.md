@@ -3,7 +3,7 @@ date = "2019-02-25T12:35:00+09:00"
 title = "hugo+netlifyでブログ公開"
 categories = ["memo"]
 tags = ["github","hugo","netlify"]
-image = "/contents/images/190225/190225_head.jpg"
+image = "/contents/images/190225_head.jpg"
 +++
 
 日頃ポートフォリオサイトの制作になかなか時間がとれず、何度かwordpressで作ろうと試みたものの、ことごとく途中で投げ出してきました。
@@ -77,16 +77,16 @@ cloneでも可だが、**netlify公開の場合はsubmoduleとして追加**し�
 
 [こちら](https://app.netlify.com/start)のページからContinuous Deployment > 'GitHub'をクリック
 
-![alternate text](/contents/images/190225/190225_00.jpg)
+![alternate text](/contents/images/190225_00.jpg)
 
 ポップアップウィンドウが開き、GitHubをオーサライズ後に以下の画面になります。
 
 先ほどコミットしたリポジトリをクリック。
 
-![alternate text](/contents/images/190225/190225_01.jpg)
+![alternate text](/contents/images/190225_01.jpg)
 
 Deploy settingの画面になるので、hugoのバージョンをローカルと合わせて'Deploy site'をクリック。
 
-![alternate text](/contents/images/190225/190225_02.jpg)
+![alternate text](/contents/images/190225_02.jpg)
 
 僕の場合、ローカルのバージョン(0.55)ではデプロイが止まってしまい、デフォルト値(0.42)に戻すと正常に完了しました。

@@ -1,1 +1,10 @@
-static/contents/images/190226/gallery/*.jpg filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.mp4 filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.webm filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.gif filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.jpg filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.png filter=lfs diff=lfs merge=lfs -text
+static/contents/images/*.jpeg filter=lfs diff=lfs merge=lfs -text
+static/contents/images/gallery/*.gif filter=lfs diff=lfs merge=lfs -text
+static/contents/images/gallery/*.jpg filter=lfs diff=lfs merge=lfs -text
+static/contents/images/gallery/*.png filter=lfs diff=lfs merge=lfs -text
+static/contents/images/gallery/*.jpeg filter=lfs diff=lfs merge=lfs -text

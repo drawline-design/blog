@@ -3,7 +3,7 @@ date = "2019-02-26T12:35:00+09:00"
 title = "hugoで構築したサイトへFancybox実装"
 categories = ["memo"]
 tags = ["github","hugo","netlify","jQuery"]
-image = "/contents/images/190226/190226_head.jpg"
+image = "/contents/images/190226_head.jpg"
 +++
 
 ポートフォリオサイトの制作に合わせて、多くの画像ファイルを並べる必要が出てきたため、hugoのshortcodeを活用して、Fancyboxを実装しました。
@@ -31,8 +31,6 @@ image = "/contents/images/190226/190226_head.jpg"
 既にjQueryがインポートされている場合は、必要ありません。
 
 ## shortcode
-
-できるだけシンプルにまとめるつもりが、結構書いてました。
 
 > /themes/テーマ名/layouts/shortcodes/gallery.html
 
@@ -72,7 +70,6 @@ image = "/contents/images/190226/190226_head.jpg"
 
 列数の指定も簡単にできそうですが、ひとまず今回は2列固定表示にしました。
 
-        <style>
           div.item {
             width:49.5%;
             float:left;
@@ -91,7 +88,6 @@ image = "/contents/images/190226/190226_head.jpg"
             height:100%;
             display:block;
           }
-        </style>
 
 ## 実行例
 
@@ -99,4 +95,4 @@ image = "/contents/images/190226/190226_head.jpg"
 
 指定したディレクトリの中にthumbsディレクトリを作り、そこに同ファイル名のサムネイルを格納しています。
 
-{{< 2colgallery dir="/contents/images/190226/gallery" >}}
+{{< 2colgallery dir="/contents/images/gallery" name="cat_" >}}
