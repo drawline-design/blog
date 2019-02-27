@@ -99,4 +99,4 @@ image = "/contents/images/190226/190226_head.jpg"
 
 指定したディレクトリの中にthumbsディレクトリを作り、そこに同ファイル名のサムネイルを格納しています。
 
-{{< 2colgallery dir="/contents/images/190226" >}}
+{{< 2colgallery dir="/contents/images/190226/gallery" >}}
