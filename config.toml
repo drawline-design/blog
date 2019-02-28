@@ -1,5 +1,5 @@
-baseurl = "https://dd.netlify.com/"
-title = "Dd."
+baseurl = "https://p.oct.ink/"
+title = "octInk."
 # themesDir = "../../"
 theme = "whiteplain"
 languageCode = "ja"
