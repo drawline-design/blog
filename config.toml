@@ -1,5 +1,5 @@
-baseurl = "https://p.oct.ink/"
-title = "octInk."
+baseurl = "https://b.oct.ink/"
+title = "octInk blog"
 # themesDir = "../../"
 theme = "whiteplain"
 languageCode = "ja"
