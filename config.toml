@@ -1,5 +1,5 @@
 baseurl = "https://b.oct.ink/"
-title = "octInk blog"
+title = "octink"
 # themesDir = "../../"
 theme = "whiteplain"
 languageCode = "ja"
@@ -11,7 +11,7 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright 2019 Dd."
+copyright = "&copy; Copyright 2019 octink."
 
 [blackfriday]
   hrefTargetBlank = true
@@ -71,28 +71,12 @@ copyright = "&copy; Copyright 2019 Dd."
   series = "series"
 
 [[menu.main]]
-  name = "Categories"
+  name = "home"
   weight = 1
-  identifier = "categories"
-  url = "/categories/"
+  identifier = "home"
+  url = "/"
 [[menu.main]]
-  name = "Tags"
+  name = "profile"
   weight = 2
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Archives"
-  weight = 3
-  identifier = "archives"
-  url = "/archives/"
-[[menu.main]]
-  name = "Profile"
-  weight = 4
-  identifier = "profile"
-  url = "/profile/"
-
-[[menu.footer]]
-  name = "Profile"
-  weight = 1
   identifier = "profile"
   url = "/profile/"
